@@ -19,7 +19,7 @@ public class Part7 {
         int sum = 0;
         for (int i = 0; i < number.length(); i++) {
             double symbol = number.charAt(i);
-            double symbolDig = symbol - START_SYMBOL;// 1 -26
+            double symbolDig = symbol - START_SYMBOL;
             sum += Math.pow(SYSTEM, number.length() - 1 - i) * symbolDig;
         }
         sum += Math.pow(SYSTEM, 0) - 1;
