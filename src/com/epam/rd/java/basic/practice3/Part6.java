@@ -33,13 +33,6 @@ public class Part6 {
         return res;
     }
 
-    /**
-     * Main function.
-     *
-     * @param args - argument functions main.
-     * @throws Exception
-     * @throws IOException
-     */
     public static void main(String[] args) {
         System.out.println(Part6.convert(readFile("part6.txt")));
 

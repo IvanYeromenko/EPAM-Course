@@ -49,11 +49,6 @@ public class Demo {
             System.out.println(e.getMessage());//
             System.out.println(EXC);
         }
-
-        /*System.out.println("~~~~~~~~~~~~Part6");
-        Part6.main(args);*/
-
-
     }
 
 }

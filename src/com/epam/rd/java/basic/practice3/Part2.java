@@ -12,20 +12,12 @@ public final class Part2 {
         throw new UnsupportedOperationException("Subtask02");
     }
 
-    /**
-     * @param input
-     * @return
-     */
     public static String convert(final String input) {
         String min = getMin(input);
         String max = getMax(input);
         return min + System.lineSeparator() + max;
     }
 
-    /**
-     * @param input
-     * @return
-     */
     public static String getMin(String input) {
         StringBuilder sb = new StringBuilder();
         int count = Integer.MAX_VALUE;
@@ -48,10 +40,6 @@ public final class Part2 {
         return sb.toString();
     }
 
-    /**
-     * @param input
-     * @return
-     */
     public static String getMax(String input) {
         StringBuilder sb = new StringBuilder();
         int count = 0;
